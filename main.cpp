@@ -13,7 +13,7 @@ int main(int argc, const char *argv[]) {
     ios::sync_with_stdio(false);
     srand(time(NULL));
 
-    num_of_clusters = 1, global_k = 1, global_L = 1;
+    num_of_clusters = 1, global_k = 2, global_L = 1;
 
     const char *file_name = get_arguments(argv, argc, "-f", false);
     const char *type = get_arguments(argv, argc, "-t", false);
